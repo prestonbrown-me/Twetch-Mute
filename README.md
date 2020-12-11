@@ -16,6 +16,7 @@ I made this Firefox extension because I'm tired of no mute feature. It is really
 
 ## Donate (less than 10 BSV)
 paymail: prestonbrown@moneybutton.com
+bitcoin (BSV): 1AYdJbmkQTXR7eBmGbYGSfzHoz4RfBysUD
 
 ## Contribute
 I have very little experience with creating browser extensions. This is a work in progress that anyone can contribute to.
