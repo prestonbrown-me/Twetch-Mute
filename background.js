@@ -1,8 +1,6 @@
 browser.runtime.onMessage.addListener(notify);
 
 function notify(uId) {
-
-    console.log('message recieved');
     if(uId === "init") {
         browser.storage.local.set({'list': []})
     } else {
@@ -11,7 +9,6 @@ function notify(uId) {
                 browser.storage.local.get().then(function (result) {
                     var tempResult = result['list']
                     tempResult.push(uId[key]);
-                    console.log(tempResult)
                     browser.storage.local.set({'list': tempResult});
                 });
             } else {
@@ -21,7 +18,6 @@ function notify(uId) {
                     if (index > -1) {
                         tempResult.splice(index, 1);
                     }
-                    console.log(tempResult)
                     browser.storage.local.set({'list': tempResult});
                 });
             }

@@ -7,7 +7,6 @@ browser.storage.local.get().then(function (result) {
 
         for(const userItem of userList){
             $("#muteList").append("<li><a href='http://twetch.app"+ userItem + "'>"+ userItem + "</a></li>")
-            console.log(userItem);
         }
     }
   });
