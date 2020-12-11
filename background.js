@@ -28,5 +28,4 @@ function notify(uId) {
         }
 
     }
-  console.log(uId);
 }
