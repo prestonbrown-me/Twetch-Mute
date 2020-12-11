@@ -41,8 +41,7 @@ const callback = function (mutationsList, observer) {
         value: !userList.includes(window.location.pathname) ? "Mute" : "Unmute"
       });
 
-      $('button span:contains("Following")').parent().parent().append(r);
-      $('button span:contains("Follow")').parent().parent().append(r);
+      $('button span:contains("Follow")').filter(":first").parent().parent().append(r);
 
       // assign the callback
       $("#muteButton").click(function (cb) {
