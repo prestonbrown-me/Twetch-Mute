@@ -5,7 +5,7 @@
 mute annoying people on [Twetch](http://twetch.app)
 
 ## Why?
-I made this firefox extension because I'm tired of no mute feature. It is really poorly made. You get what you pay for. BUT. Gimme clout and donations.
+I made this Firefox extension because I'm tired of no mute feature. It is really poorly made. You get what you pay for. BUT. Gimme clout and donations.
 
 ## How?
 1. visit annoying page ![annoying](./readme/unmuted-image.png)
@@ -19,3 +19,7 @@ paymail: prestonbrown@moneybutton.com
 
 ## Contribute
 I have very little experience with creating browser extensions. This is a work in progress that anyone can contribute to.
+
+## FAQ
+1. No chrome?
+   - no. chrome needs to get it together and use promises like firefox provides with ```browser```
